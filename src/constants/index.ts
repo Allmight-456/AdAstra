@@ -1,20 +1,27 @@
 import { Icons } from "@/components";
 
+export const navItems = [
+    { name: "About", link: "#perks" },
+    { name: "Features", link: "#features" },
+    { name: "Testimonials", link: "#reviews" },
+    { name: "Pricing Cards", link: "#pricingCrads" },
+  ];
+
 export const perks = [
     {
         icon: Icons.auth,
         title: "Sign Up",
-        info: "Create your free account to get started with Astra.",
+        info: "Launch Your Journey with Free AstraDynamic Account.",
     },
     {
         icon: Icons.customize,
-        title: "Customize",
-        info: "Choose a template and customize it to fit your needs.",
+        title: "Personalize",
+        info: "Choose a template and personalize your perfect template.",
     },
     {
         icon: Icons.launch,
-        title: "Launch",
-        info: "Publish your website and share it with the world.",
+        title: "Deploy",
+        info: "Deploy your Site and GoLive ,share it  to the world.",
     },
 ];
 
@@ -22,32 +29,32 @@ export const features = [
     {
         icon: Icons.bolt,
         title: "Fast Setup",
-        info: "Get your website up and running in minutes with our intuitive AI-powered builder.",
+        info: "Craft stunning frontends in minutes with our intuitive component library.",
     },
     {
         icon: Icons.palette,
         title: "Customizable Templates",
-        info: "Choose from a variety of stunning templates and customize them to suit your brand.",
+        info: "Choose from a variety of modern UI elements and customize them to fit your design.",
     },
     {
         icon: Icons.seo,
         title: "SEO Optimized",
-        info: "Built-in SEO features ensure your website ranks well on search engines.",
+        info: "Optimized components ensure your website performs smoothly across browsers.",
     },
     {
         icon: Icons.monitor,
         title: "Responsive Design",
-        info: "Your website will look great on any device, from desktops to mobile phones.",
+        info: "Responsive design templates guarantee your site looks great on all devices.",
     },
     {
         icon: Icons.shop,
-        title: "E-Commerce Ready",
-        info: "Start selling online with our e-commerce features and integrations.",
+        title: "Online Shops",
+        info: "Elevate user experience with seamless animations and interactive elements.",
     },
     {
         icon: Icons.server,
-        title: "Secure Hosting",
-        info: "Enjoy peace of mind with secure and reliable hosting for your website.",
+        title: "Vercel Hosting",
+        info: "Boost development with ready-to-use ShadCN components and Framer Motion effects.",
     },
 ];
 
@@ -113,28 +120,28 @@ export const bentoCards = [
 
 export const reviews = [
     {
-        name: "Jack",
-        username: "@jack",
+        name: "Prakash",
+        username: "@pak",
         body: "I've never seen anything like this before. It's amazing. I love it.",
     },
     {
-        name: "Jill",
-        username: "@jill",
+        name: "Raj",
+        username: "@raj",
         body: "I don't know what to say. I'm speechless. This is amazing.",
     },
     {
-        name: "John",
-        username: "@john",
+        name: "Rasna",
+        username: "@rasna",
         body: "I'm at a loss for words. This is amazing. I love it.",
     },
     {
-        name: "Jane",
-        username: "@jane",
+        name: "Jishan",
+        username: "@jishan",
         body: "I'm at a loss for words. This is amazing. I love it.",
     },
     {
-        name: "Jenny",
-        username: "@jenny",
+        name: "Polo",
+        username: "@pol",
         body: "I'm at a loss for words. This is amazing. I love it.",
     },
     {
