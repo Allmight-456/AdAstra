@@ -1,7 +1,7 @@
 # AstraUI: Modern Frontend Development Kit
 
 AstraUI is a powerful toolkit for crafting stunning, responsive frontends using Next.js, ShadCN UI, and Framer Motion.
-
+![Astra Logo](/public/icons/Screenshot.png)
 ## 🚀 Features
 
 - **Modern Component Library**: Built with ShadCN UI for sleek, customizable UI elements
@@ -23,12 +23,12 @@ AstraUI is a powerful toolkit for crafting stunning, responsive frontends using 
 
 1. Clone the repository
    ```
-   git clone https://github.com/yourusername/astra.git
+   git clone https://github.com/Allmight-456/AdAstra.git
    ```
 
 2. Install dependencies
    ```
-   cd astra
+   cd AdAstra
    npm install
    ```
 
@@ -58,5 +58,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Built with ❤️ by [Your Name/Team]
+Built with ❤️ by [Allmight-456]
 
