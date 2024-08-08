@@ -1,7 +1,9 @@
 # AstraUI: Modern Frontend Development Kit
 
 AstraUI is a powerful toolkit for crafting stunning, responsive frontends using Next.js, ShadCN UI, and Framer Motion.
+
 ![Astra Logo](/public/icons/Screenshot.png)
+View the workings [AstraDynamic](https://ad-astra-landing-page.vercel.app/)
 ## 🚀 Features
 
 - **Modern Component Library**: Built with ShadCN UI for sleek, customizable UI elements
