@@ -21,7 +21,7 @@ const HomePage = () => {
     const secondRow = reviews.slice(reviews.length / 2);
 
     return (
-        <section className="w-full relative flex items-center justify-center flex-col px-4 md:px-0 py-8">
+        <div className="w-full relative flex items-center justify-center flex-col px-4 md:px-0 py-8">
 
             {/**Hero section */}
 
@@ -33,7 +33,7 @@ const HomePage = () => {
                     <div className="flex flex-col items-center justify-center py-20 h-full">
                         <button className="group relative grid overflow-hidden rounded-full px-4 py-1 shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset] transition-colors duration-200">
                             <span>
-                                <span className="spark mask-gradient absolute inset-0 h-[100%] w-[100%] animate-flip overflow-hidden rounded-full [mask:linear-gradient(white,_transparent_50%)] before:absolute before:aspect-square before:w-[200%] before:rotate-[-90deg] before:animate-rotate before:bg-[conic-gradient(from_0deg,transparent_0_340deg,white_360deg)] before:content-[''] before:[inset:0_auto_auto_50%] before:[translate:-50%_-15%]" />
+                                <span className="spark mask-gradient absolute inset-0 h-[100%] w-[100%] animate-flip overflow-hidden rounded-full [mask:linear-gradient(white,_transparent_50%)] before:absolute before:aspect-square before:w-[200%] before:rotate-[-90deg] before:animate-rotate before:bg-[conic-gradient(from_0deg,transparent_0_340deg,white_360deg)] before:content-[] before:[inset:0_auto_auto_50%] before:[translate:-50%_-15%]" />
                             </span>
                             <span className="backdrop absolute inset-[1px] rounded-full bg-neutral-950 transition-colors duration-200 group-hover:bg-neutral-900" />
                             <span className="h-full w-full blur-md absolute bottom-0 inset-x-0 bg-gradient-to-tr from-primary/40"></span>
@@ -129,7 +129,7 @@ const HomePage = () => {
                     <div className="max-w mx-auto text-start md:text-center">
                         <SectionBadge title="Features" />
                         <h2 className="text-3xl lg:text-4xl font-semibold mt-6">
-                            Discover Astra's powerful features
+                            Discover Astra&appos;s powerful features
                         </h2>
                         <p className="text-muted-foreground mt-6">
                             AstraDynamic offers a range of features to help you build a stunning website in no time
@@ -305,7 +305,7 @@ const HomePage = () => {
                                 From Idea to Launch <br /> Faster Than Ever
                             </h2>
                             <p className="text-muted-foreground mt-6 max-w-md mx-auto">
-                                Craft stunning frontends with AstraDynamic's modern component library and fluid animation tools
+                                Craft stunning frontends with AstraDynamic&appos;s modern component library and fluid animation tools
                             </p>
                             <Button variant="white" className="mt-6" asChild>
                                 <Link href="/sign-in">
@@ -352,7 +352,7 @@ const HomePage = () => {
             </Wrapper>
 
             </div>
-        </section>
+        </div>
     )
 }
 
